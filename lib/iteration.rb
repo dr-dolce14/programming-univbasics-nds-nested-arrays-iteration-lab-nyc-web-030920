@@ -39,7 +39,7 @@ end
 outer_results << inner_results.uniq
 row_index +=1
 end
-outer_results
+outer_results.flatten!
 end
 
 def total_even_pairs(src)
