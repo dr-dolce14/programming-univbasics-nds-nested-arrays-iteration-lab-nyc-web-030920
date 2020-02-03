@@ -36,7 +36,7 @@ inner_results << src[row_index].max
 end
 element_index +=1
 end
-outer_results << inner_results
+outer_results << inner_results.uniq
 row_index +=1
 end
 outer_results
